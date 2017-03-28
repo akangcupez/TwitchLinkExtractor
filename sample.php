@@ -10,7 +10,7 @@
 /**
  * The sample is using CZ_TwitchExtractor.php and sample.php for usage
  * within framework which does not support namespacing. While for framework
- * supports namespacing, it would be simpler as follow:
+ * supports namespacing, it would be as simple as follow:
  *
  * $twitch = new URLExtractor($config);
  * $result = $twitch->extractVideoUrl(VIDEO_ID);

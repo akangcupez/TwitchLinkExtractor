@@ -9,8 +9,6 @@
  */
 
 use Exception;
-use HttpException;
-use HttpRequest;
 
 class Request
 {

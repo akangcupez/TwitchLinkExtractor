@@ -12,28 +12,24 @@ use CZ\Core\Request;
 
 class URLExtractor extends Request
 {
-    const X_CHANNEL_STREAM = 101;
-    const X_RECORDED_VOD = 102;
+    const X_CHANNEL_STREAM  = 101;
+    const X_RECORDED_VOD    = 102;
 
-    private $configKeys = array('clientId', 'oauthToken');
+    private $configKeys     = array('clientId', 'oauthToken');
 
     private $params = array
     (
-        self::X_RECORDED_VOD   => array(
-            'allow_source'   => "true",
-            'allow_spectre'  => "true",
-            "player_backend" => "html5",
-            "baking_bread"   => "false"
+        self::X_RECORDED_VOD    => array(
+            'allow_source'      => "true",
+            'allow_spectre'     => "true",
+            "player_backend"    => "html5",
+            "baking_bread"      => "false"
         ),
-        self::X_CHANNEL_STREAM => array(
-            'player'           => "twitchweb",
-            'allow_audio_only' => "true",
-            'allow_source'     => "true",
-            'type'             => "any",
-            //'allow_spectre'     => "true",
-            //"player_backend"    => "html5",
-            //"expgroup"          => "regular",
-            //"baking_bread"      => "false"
+        self::X_CHANNEL_STREAM  => array(
+            'player'            => "twitchweb",
+            'allow_audio_only'  => "true",
+            'allow_source'      => "true",
+            'type'              => "any"
         )
     );
 
@@ -208,8 +204,6 @@ class URLExtractor extends Request
         $this->response = $this->execute($url);
 
         return $this->getResponse(self::RESULT_OBJECT);
-
-        //return $this->token;
     }
 
 }
