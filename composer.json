@@ -2,17 +2,18 @@
   "name": "CZ/CZibs",
   "description": "CZLibs",
   "minimum-stability": "beta",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Aji Subastian",
       "email": "akangcupez@gmail.com"
     }
   ],
+  "require": {},
   "autoload": {
     "psr-4": {
-      "CZ\\Core\\":"CZ/Core",
-      "CZ\\CZTwitch\\":"CZ/CZTwitch"
+      "CZLibs\\Core\\":"CZLibs/Core",
+      "CZLibs\\CZTwitch\\":"CZLibs/TwitchTV"
     }
   }
 }
