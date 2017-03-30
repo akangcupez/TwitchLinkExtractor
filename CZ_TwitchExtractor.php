@@ -8,10 +8,11 @@
  * Date         : 28/3/2017 08:29
  */
 
-require_once("CZLibs/vendor/autoload.php");
+//TODO: fix vendor path when generate vendor folder from composer
+require_once("vendor/autoload.php");
 
-use CZ\CZTwitch\URLExtractor;
-use CZ\CZTwitch\Utils;
+use AjiSubastian\CZLibs\TwitchTV\URLExtractor;
+use AjiSubastian\CZLibs\TwitchTV\Utils;
 
 class CZ_TwitchExtractor
 {

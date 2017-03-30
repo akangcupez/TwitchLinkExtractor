@@ -1,4 +1,4 @@
-<?php namespace CZ\Core;
+<?php namespace AjiSubastian\CZLibs\Core;
 
 /*
  * Created by   : Aji Subastian (aKanG cuPez)

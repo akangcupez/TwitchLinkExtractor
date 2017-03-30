@@ -1,4 +1,4 @@
-<?php
+<?php namespace AjiSubastian\CZLibs\TwitchTV;
 
 /*
  * Created by   : Aji Subastian (aKanG cuPez)
@@ -7,8 +7,6 @@
  * Website      : http://akangcupez.com
  * Date         : 28/3/2017 10:36
  */
-
-namespace CZ\CZTwitch;
 
 class Utils
 {

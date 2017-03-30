@@ -1,4 +1,4 @@
-<?php namespace CZ\CZTwitch;
+<?php namespace AjiSubastian\CZLibs\TwitchTV;
 
 /*
  * Created by   : Aji Subastian (aKanG cuPez)
@@ -8,7 +8,7 @@
  * Date         : 28/3/2017 07:55
  */
 
-use CZ\Core\Request;
+use AjiSubastian\CZLibs\Core\Request;
 
 class URLExtractor extends Request
 {

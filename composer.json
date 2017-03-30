@@ -1,8 +1,8 @@
 {
-  "name": "CZ/CZibs",
-  "description": "CZLibs",
-  "minimum-stability": "beta",
+  "name": "ajisubastian/twitchtv",
+  "description": "Twitch TV URL Extractor",
   "license": "MIT",
+  "keywords": ["twitch,twitchtv"],
   "authors": [
     {
       "name": "Aji Subastian",
@@ -12,8 +12,8 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "CZLibs\\Core\\":"CZLibs/Core",
-      "CZLibs\\CZTwitch\\":"CZLibs/TwitchTV"
+      "AjiSubastian\\CZLibs\\Core\\":"AjiSubastian/CZLibs/Core",
+      "AjiSubastian\\CZLibs\\CZTwitch\\":"AjiSubastian/CZLibs/TwitchTV"
     }
   }
 }
